@@ -1,0 +1,28 @@
+Creacion package.json:
+>npm init / npm -y
+>npm install webpack-cli --save-dev
+>npm run build (Necesario indicar script en package.json -> crea carpeta dist)
+npm install --save-dev html-loader
+npm install --save-dev html-webpack-plugin
+>npm i --save-dev webpack-dev-server (Servidor para desarrollo)
+> npm start (crear script, no necesita run)
+
+Importar estilos dinamicos:
+npm install --save-dev css-loader style-loader
+
+Archivos de estilos globales:
+npm install --save-dev mini-css-extract-plugin
+
+Manejo de imagenes:
+npm install file-loader --save-dev
+
+Copy file plugin:
+npm install copy-webpack-plugin --save-dev
+
+Optimizaciones produccion:
+npm i -D css-minimizer-webpack-plugin terser-webpack-plugin
+
+Instalacion Babel:
+npm install --save-dev babel-loader @babel/core
+npm install @babel/preset-env --save-dev
+
